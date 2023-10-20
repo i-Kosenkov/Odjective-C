@@ -1,12 +1,9 @@
-//
-//  Trainer.m
-//  Lesson 2
-//
-//  Created by Ivan Kosenkov on 19.10.2023.
-//
-
 #import "Trainer.h"
 
 @implementation Trainer
-
+- (NSInteger)checkMoney {
+    NSInteger k = 2;
+    k *= self.getstartNumberOfPhoto;
+    return k;
+}
 @end
