@@ -1,15 +1,20 @@
-//
-//  Figure.h
-//  Home 2
-//
-//  Created by Ivan Kosenkov on 20.10.2023.
-//
-
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Figure : NSObject
+typedef NS_ENUM (NSInteger, FigureType);
+
+@interface Figure : NSObject {
+    @private FigureType _figureType;
+}
+
+-(instancetype)initWithFigureType:(FigureType)figureType;
+
+-(void)setFigureType:(FigureType)figureType;
+-(FigureType)getFigureType;
+
+-(NSInteger)calculateArea;
+-(NSInteger)calculatePerimeter;
 
 @end
 
