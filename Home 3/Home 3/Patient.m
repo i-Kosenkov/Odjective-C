@@ -1,12 +1,9 @@
-//
-//  Patient.m
-//  Home 3
-//
-//  Created by Ivan Kosenkov on 26.10.2023.
-//
-
 #import "Patient.h"
 
 @implementation Patient
+
+-(void)eatTablet{
+    NSLog(@"Patient eating tablet");
+}
 
 @end

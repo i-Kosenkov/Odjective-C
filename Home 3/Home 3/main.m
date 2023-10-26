@@ -1,16 +1,13 @@
-//
-//  main.m
-//  Home 3
-//
-//  Created by Ivan Kosenkov on 26.10.2023.
-//
-
 #import <Foundation/Foundation.h>
+#import "Doctor.h"
+#import "Patient.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Doctor *doctor = [Doctor new];
+        Patient *patient = [Patient new];
+        doctor.delegate = patient;
+        [doctor prepareTablet];
     }
     return 0;
 }

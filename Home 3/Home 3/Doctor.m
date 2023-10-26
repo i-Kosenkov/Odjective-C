@@ -1,12 +1,10 @@
-//
-//  Doctor.m
-//  Home 3
-//
-//  Created by Ivan Kosenkov on 26.10.2023.
-//
-
 #import "Doctor.h"
 
 @implementation Doctor
+
+-(void) prepareTablet{
+    NSLog(@"Doctor preparing tablet");
+    [self.delegate eatTablet];
+}
 
 @end
