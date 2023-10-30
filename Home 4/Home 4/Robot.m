@@ -1,12 +1,8 @@
-//
-//  Robot.m
-//  Home 4
-//
-//  Created by Ivan Kosenkov on 30.10.2023.
-//
-
 #import "Robot.h"
 
 @implementation Robot
+
+- (void)makeStep:(nonnull NSString * _Nonnull (^)(NSString * _Nonnull __strong))myblock step:(nonnull NSString *)step {
+}
 
 @end
