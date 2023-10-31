@@ -14,6 +14,7 @@
 		6EDA918C2AF00E63009F6A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EDA918B2AF00E63009F6A70 /* Assets.xcassets */; };
 		6EDA918F2AF00E63009F6A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDA918D2AF00E63009F6A70 /* LaunchScreen.storyboard */; };
 		6EDA91922AF00E63009F6A70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDA91912AF00E63009F6A70 /* main.m */; };
+		6EDA919A2AF00E93009F6A70 /* Loader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDA91992AF00E93009F6A70 /* Loader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		6EDA918E2AF00E63009F6A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EDA91902AF00E63009F6A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EDA91912AF00E63009F6A70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EDA91982AF00E93009F6A70 /* Loader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loader.h; sourceTree = "<group>"; };
+		6EDA91992AF00E93009F6A70 /* Loader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Loader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				6EDA918D2AF00E63009F6A70 /* LaunchScreen.storyboard */,
 				6EDA91902AF00E63009F6A70 /* Info.plist */,
 				6EDA91912AF00E63009F6A70 /* main.m */,
+				6EDA91982AF00E93009F6A70 /* Loader.h */,
+				6EDA91992AF00E93009F6A70 /* Loader.m */,
 			);
 			path = "Lesson 5+";
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				6EDA91812AF00E62009F6A70 /* AppDelegate.m in Sources */,
 				6EDA91922AF00E63009F6A70 /* main.m in Sources */,
 				6EDA91842AF00E62009F6A70 /* SceneDelegate.m in Sources */,
+				6EDA919A2AF00E93009F6A70 /* Loader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
