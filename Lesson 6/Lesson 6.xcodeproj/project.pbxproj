@@ -14,6 +14,7 @@
 		6E820DBB2AF4047A000A362D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E820DBA2AF4047A000A362D /* Assets.xcassets */; };
 		6E820DBE2AF4047A000A362D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E820DBC2AF4047A000A362D /* LaunchScreen.storyboard */; };
 		6E820DC12AF4047A000A362D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E820DC02AF4047A000A362D /* main.m */; };
+		6E820DC92AF40BAB000A362D /* ColorTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E820DC82AF40BAB000A362D /* ColorTile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		6E820DBD2AF4047A000A362D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E820DBF2AF4047A000A362D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E820DC02AF4047A000A362D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E820DC72AF40BAB000A362D /* ColorTile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorTile.h; sourceTree = "<group>"; };
+		6E820DC82AF40BAB000A362D /* ColorTile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorTile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				6E820DB22AF40478000A362D /* SceneDelegate.m */,
 				6E820DB42AF40478000A362D /* ViewController.h */,
 				6E820DB52AF40478000A362D /* ViewController.m */,
+				6E820DC72AF40BAB000A362D /* ColorTile.h */,
+				6E820DC82AF40BAB000A362D /* ColorTile.m */,
 				6E820DB72AF40478000A362D /* Main.storyboard */,
 				6E820DBA2AF4047A000A362D /* Assets.xcassets */,
 				6E820DBC2AF4047A000A362D /* LaunchScreen.storyboard */,
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E820DC92AF40BAB000A362D /* ColorTile.m in Sources */,
 				6E820DB62AF40478000A362D /* ViewController.m in Sources */,
 				6E820DB02AF40478000A362D /* AppDelegate.m in Sources */,
 				6E820DC12AF4047A000A362D /* main.m in Sources */,

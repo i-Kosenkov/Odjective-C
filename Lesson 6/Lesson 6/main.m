@@ -1,9 +1,4 @@
-//
-//  main.m
-//  Lesson 6
-//
-//  Created by Ivan Kosenkov on 02.11.2023.
-//
+//Создать тестовый проект(пустой). Сохранить данные примитивного типа с помощью UserDefaults. Создать метод, который очищает UserDefaults ключи. Проверить, что они сохранились в SandBox(Папку приложения) или на устройстве или на симуляторе, проверить можно посмотреть NSHomeDirectory
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
