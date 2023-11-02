@@ -1,13 +1,18 @@
+//
+//  main.m
+//  Lesson 6
+//
+//  Created by Ivan Kosenkov on 02.11.2023.
+//
+
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
-#import "ViewController.h"
 
 int main(int argc, char * argv[]) {
     NSString * appDelegateClassName;
     @autoreleasepool {
+        // Setup code that might create autoreleased objects goes here.
         appDelegateClassName = NSStringFromClass([AppDelegate class]);
-
     }
-    self.textView.text = UIApplicationMain(argc, argv, nil, appDelegateClassName);
-//    return UIApplicationMain(argc, argv, nil, appDelegateClassName);
+    return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 }
