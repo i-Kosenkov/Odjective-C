@@ -1,12 +1,5 @@
-//
-//  ViewController.m
-//  Lesson 6
-//
-//  Created by Ivan Kosenkov on 02.11.2023.
-//
-
 #import "ViewController.h"
-#import "ColorTile.h"
+#import "Robot.h"
 
 @interface ViewController ()
 
@@ -17,15 +10,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.userDefaults = [NSUserDefaults standardUserDefaults];
-//    [self.userDefaults setObject:@"myString" forKey:@"strKey"];
-//    [self.userDefaults setInteger:100 forKey:@"intKey"];
-//    [self.userDefaults setDouble:50.20 forKey:@"dblKey"];
-//    [self.userDefaults setFloat:30.35 forKey:@"fltKey"];
-//    UIColor * myColor = UIColor.redColor;
-//    CGPoint myPoint = CGPointMake(10, 30);
-//    ColorTile * myTile = [[ColorTile alloc] initWithTileOrigin:myPoint andColor:myColor];
-//    NSData * myData = [NSKeyedArchiver archivedDataWithRootObject:myTile];
-//    [self.userDefaults setObject:myData forKey:@"dataKey"];
+    [self.userDefaults setObject:@"myString" forKey:@"strKey"];
+    [self.userDefaults setInteger:100 forKey:@"intKey"];
+    [self.userDefaults setDouble:50.20 forKey:@"dblKey"];
+    [self.userDefaults setFloat:30.35 forKey:@"fltKey"];
+    UIColor * myColor = UIColor.redColor;
+    CGPoint myPoint = CGPointMake(10, 30);
+    ColorTile * myTile = [[ColorTile alloc] initWithTileOrigin:myPoint andColor:myColor];
+    NSData * myData = [NSKeyedArchiver archivedDataWithRootObject:myTile];
+    [self.userDefaults setObject:myData forKey:@"dataKey"];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
